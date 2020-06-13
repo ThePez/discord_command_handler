@@ -1,0 +1,30 @@
+{
+  "name": "command_handler",
+  "version": "1.0.0",
+  "description": "Discord command handler",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clear": "rimraf dist",
+    "dev": "nodemon -e ts --exec \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePez/discord_command_handler.git"
+  },
+  "author": "@ThePez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThePez/discord_command_handler/issues"
+  },
+  "homepage": "https://github.com/ThePez/discord_command_handler#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
