@@ -23,7 +23,7 @@ export default class CommandHandler {
         this.COMMANDS = new Collection();
 
         for (let index = 0; index < COMMANDS.length; index++) {
-            this.COMMANDS.set(COMMANDS[index].name, COMMANDS[index]);
+            this.COMMANDS.set(`${COMMANDS[index].name}`, COMMANDS[index]);
         }
     }
 
